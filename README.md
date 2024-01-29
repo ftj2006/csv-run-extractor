@@ -6,11 +6,11 @@ In addition, the tool will also filter out configured fields and order them acco
 
 
 ## Usage
- - Download the executable and config file from the release page.
+ - Download the executable and config file from the [release page](https://github.com/ftj2006/csv-run-extractor/releases).
  - Simply drag and drop your CSV file onto the executable and it will generate the extracted runs in files with the same name followed by "Run X"
 
 ## Configuration
-The config.yaml is used to determine what field is used to measure full throttle, how many occurences are required to meet "Run" criteria and what minimum percentage they should be
+The [config.yaml](/config.yaml) is used to determine what field is used to measure full throttle, how many occurences are required to meet "Run" criteria and what minimum percentage they should be
 
 ```yaml
 runLimits: 
